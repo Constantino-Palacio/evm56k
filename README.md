@@ -8,7 +8,23 @@ As an evaluation module, its primary intention is to be used as a test environme
 ## Starting operation
 The EVM56K requires a single 5V power supply (1A max), and a serial connection at 19200bps, 8 bits, no parity and 1 stop bit. Once connected to the computer, start the terminal emulator and turn on the EVM power supply. The following message should appear on the screen:
 
-<div align="center"><img src="https://github.com/user-attachments/assets/bb5557f9-5d8c-4b31-aa4e-f2aa8bc5e983" style="width:50%;height:50%;text-align:center;"></img></div>
+```
+Monitor 56001 I.T.B.A.- G.E.D.A. V1.0 1992,1993
+Copyright Ing. Daniel A. Jacoby  30-9-92
+
+
+                X1= 000000     X0= 000000     R7= 0000     N7= 0000     M7= FFFF
+                Y1= 000000     Y0= 000000     R6= 0000     N6= 0000     M6= FFFF
+     A2= 00     A1= 000000     A0= 000000     R5= 0000     N5= 0000     M5= FFFF
+     B2= 00     B1= 000000     B0= 000000     R4= 0000     N4= 0000     M4= FFFF
+                                              R3= 0000     N3= 0000     M3= FFFF
+     PC= 0000   SR= 0300      CCR= -------    R2= 0000     N2= 0000     M2= FFFF
+     LA= 0000   LC= 0000      OMR= 0002       R1= 0000     N1= 0000     M1= FFFF
+    SSH= 0000  SSL= 0000       SP= 0000       R0= 0000     N0= 0000     M0= FFFF
+
+
+>
+```
 
 From here, one can enter the following commands:
 - R: show processor register status
